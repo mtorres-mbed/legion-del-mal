@@ -1,7 +1,9 @@
 name: Reclutamiento de Agente
 
-on: push
-
+#on: push
+on: 
+    workflow-dispatch:
+        
 jobs:
     reporte-de-reclutamiento:
         runs-on: ubuntu-latest
